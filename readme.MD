@@ -65,43 +65,43 @@ npm start
 
 ## API Endpoints
 ### Authentication
-#### Register User
-POST /api/register
+Register User
+```POST /api/register```
 
-#### Login
-POST /api/login
+Login
+```POST /api/login```
 
-#### Password Recovery
+Password Recovery
 Generate OTP
-GET /api/generateOTP
+```GET /api/generateOTP```
 
 Verify OTP
-GET /api/verifyOTP
+```GET /api/verifyOTP```
 
 Create a Reset Session
-GET /api/createResetSession
+```GET /api/createResetSession```
 
 Reset Password
-PUT /api/resetPassword
+```PUT /api/resetPassword```
 
 ### User Profile
 Get User Data
-GET /api/user/:username
+```GET /api/user/:username ```
 
 Update User Profile
-PUT /api//updateUser
+```PUT /api//updateUser```
 
 ## Frontend Integration
 The React.js frontend consumes the APIs for user registration, login, and password recovery. Use axios for API calls and formik for form management.
 
 ## Common Issues and Debugging Tips
-### MongoDB Connection Issues:
+### 1. MongoDB Connection Issues:
 Ensure your MONGO_URI is correct and the MongoDB service is running.
-### SMTP Configuration:
+### 2. SMTP Configuration:
 Double-check your SMTP credentials and ensure the email service allows third-party app access.
-### Mongoose Deprecation Warnings:
+### 3. Mongoose Deprecation Warnings:
 Use async/await instead of callbacks in Mongoose operations.
-### Session Expiration:
+### 4. Session Expiration:
 Confirm the resetSession flag is correctly managed in req.app.locals.
 
 ## Contributing
