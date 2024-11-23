@@ -11,12 +11,12 @@ This project is a Node.js application for managing user authentication and passw
 7. Frontend integration for seamless user interactions.
 
 ## Tech Stack
-#### Backend: Node.js, Express.js
-#### Database: MongoDB with Mongoose
-#### Frontend: React.js
-#### Authentication: bcrypt for password hashing, custom OTP logic, jwt for token
-#### Email Service: Integration with an SMTP service for email notifications (e.g., Nodemailer)
-#### APIs: RESTful APIs
+#### 1. Backend: Node.js, Express.js
+#### 2. Database: MongoDB with Mongoose
+#### 3. Frontend: React.js
+#### 4. Authentication: bcrypt for password hashing, custom OTP logic, jwt for token
+#### 5. Email Service: Integration with an SMTP service for email notifications (e.g., Nodemailer)
+#### 6. APIs: RESTful APIs
 
 ## Setup Instructions
 ### Prerequisites
